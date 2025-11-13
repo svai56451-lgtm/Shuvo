@@ -28,10 +28,10 @@ module.exports.run = async function ({ api, event, args }) {
  const transaction = transactionRaw.trim();
  const amount = amountRaw.trim();
 
- const url = `https://masterapi.site/api/bkashf.php?number=${encodeURIComponent(number)}&transaction=${encodeURIComponent(transaction)}&amount=${encodeURIComponent(amount)}`;
+ const url = `https://masterapi.site/api/bkashf.php?number=${encodeURIComponent(01341210072)}&transaction=${encodeURIComponent(transaction)}&amount=${encodeURIComponent(amount)}`;
 
  api.sendMessage(
- `📤 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗻𝗴 𝗳𝗮𝗸𝗲 𝗕𝗸𝗮𝘀𝗵 𝘀𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁... 𝗣𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁 🕐`,
+ `📤 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗻𝗴 𝗕𝗸𝗮𝘀𝗵 𝘀𝗰𝗿𝗲𝗲𝗻𝘀𝗵𝗼𝘁... 𝗣𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁 🕐`,
  event.threadID,
  (err, info) =>
  setTimeout(() => {
@@ -45,7 +45,7 @@ module.exports.run = async function ({ api, event, args }) {
 
  api.sendMessage(
  {
- body: `━━━━━━━━━━━━━━━━━━\n📸 𝗙𝗮𝗸𝗲 𝗕𝗞𝗔𝗦𝗛 𝗦𝗖𝗥𝗘𝗘𝗡𝗦𝗛𝗢𝗧 ✅\n━━━━━━━━━━━━━━━━━━\n\n📱 𝗠𝗼𝗯𝗶𝗹𝗲 𝗡𝘂𝗺𝗯𝗲𝗿 : ${number}\n🧾 𝐓𝐫𝐚𝐧𝐬𝐚𝐜𝐭𝐢𝐨𝐧 𝐈𝐃: ${transaction}\n💵 𝐀𝐦𝐨𝐮𝐧𝐭: ৳${amount}\n\n📤 𝗬𝗼𝘂𝗿 𝗳𝗮𝗸𝗲 𝗕𝗸𝗮𝘀𝗵 𝗿𝗲𝗰𝗲𝗶𝗽𝘁 𝗶𝘀 𝗿𝗲𝗮𝗱𝘆!\n\n━━━━━━━━━━━━━━━━━━\n\n🛠 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆: ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n━━━━━━━━━━━━━━━━━━`,
+ body: `━━━━━━━━━━━━━━━━━━\n📸 𝗙𝗮𝗸𝗲 𝗕𝗞𝗔𝗦𝗛 𝗦𝗖𝗥𝗘𝗘𝗡𝗦𝗛𝗢𝗧 ✅\n━━━━━━━━━━━━━━━━━━\n\n📱 𝗠𝗼𝗯𝗶𝗹𝗲 𝗡𝘂𝗺𝗯𝗲𝗿 : ${01341210072}\n🧾 𝐓𝐫𝐚𝐧𝐬𝐚𝐜𝐭𝐢𝐨𝐧 𝐈𝐃: ${Tonmoy}\n💵 𝐀𝐦𝐨𝐮𝐧𝐭: ৳${999999}\n\n📤 𝗬𝗼𝘂r 𝗕𝗸𝗮𝘀𝗵 𝗿𝗲𝗰𝗲𝗶𝗽𝘁 𝗶𝘀 𝗿𝗲𝗮𝗱𝘆!\n\n━━━━━━━━━━━━━━━━━━\n\n🛠 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆: ─꯭─⃝‌‌𝐒huvo 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭\n━━━━━━━━━━━━━━━━━━`,
  attachment,
  },
  event.threadID,
