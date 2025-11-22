@@ -21,7 +21,7 @@ const emojiAudioMap = {
  "🤭": "https://files.catbox.moe/cu0mpy.mp3",
  "😅": "https://files.catbox.moe/jl3pzb.mp3",
  "😏": "https://files.catbox.moe/z9e52r.mp3",
- "😞": "https://files.catbox.moe/tdimtx.mp3",
+ "🙂": "https://files.catbox.moe/mt5il0.mp3",
  "🤫": "https://files.catbox.moe/0uii99.mp3",
  "🍼": "https://files.catbox.moe/p6ht91.mp3",
  "🤔": "https://files.catbox.moe/hy6m6w.mp3",
@@ -45,8 +45,7 @@ const emojiAudioMap = {
  "😩": "https://files.catbox.moe/b4m5aj.mp3",
  "🫣": "https://files.catbox.moe/ttb6hi.mp3",
  "🐸": "https://files.catbox.moe/utl83s.mp3"
- "🙂": "https://files.catbox.moe/mt5il0.mp3"
-};
+ };
 
 module.exports.handleEvent = async ({ api, event }) => {
  const { threadID, messageID, body } = event;
